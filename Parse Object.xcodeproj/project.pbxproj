@@ -28,6 +28,7 @@
 		1D5D4DA61C4237B9007AE366 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4D901C4237B9007AE366 /* ObjectMapper.m */; };
 		1D5D4DA71C4237B9007AE366 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4D921C4237B9007AE366 /* ObjectMappingInfo.m */; };
 		1D5D4DAB1C423B03007AE366 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4DAA1C423B03007AE366 /* Parser.m */; };
+		1D5D4DAF1C425CF4007AE366 /* ObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4DAE1C425CF4007AE366 /* ObjectResponse.m */; };
 		1DA99FCE1C0B460A00576553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99FCD1C0B460A00576553 /* main.m */; };
 		1DA99FD11C0B460A00576553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99FD01C0B460A00576553 /* AppDelegate.m */; };
 		1DA99FD41C0B460A00576553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99FD31C0B460A00576553 /* ViewController.m */; };
@@ -88,6 +89,8 @@
 		1D5D4D931C4237B9007AE366 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
 		1D5D4DA91C423B02007AE366 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
 		1D5D4DAA1C423B03007AE366 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		1D5D4DAD1C425CF4007AE366 /* ObjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectResponse.h; sourceTree = "<group>"; };
+		1D5D4DAE1C425CF4007AE366 /* ObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectResponse.m; sourceTree = "<group>"; };
 		1DA99FC91C0B460A00576553 /* Parse Object.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Object.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA99FCD1C0B460A00576553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DA99FCF1C0B460A00576553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Parse Object/AppDelegate.h"; sourceTree = "<group>"; };
@@ -220,8 +223,18 @@
 		1D5D4DA81C4239B0007AE366 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1D5D4DAC1C425C0D007AE366 /* General */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		1D5D4DAC1C425C0D007AE366 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D4DAD1C425CF4007AE366 /* ObjectResponse.h */,
+				1D5D4DAE1C425CF4007AE366 /* ObjectResponse.m */,
+			);
+			name = General;
 			sourceTree = "<group>";
 		};
 		1DA99FC01C0B460A00576553 = {
@@ -399,6 +412,7 @@
 				1D5D4DA11C4237B9007AE366 /* NSObject+ObjectMapper.m in Sources */,
 				1D5D4DA41C4237B9007AE366 /* CommonLoggingProvider.m in Sources */,
 				1D5D4D961C4237B9007AE366 /* SBJsonStreamParser.m in Sources */,
+				1D5D4DAF1C425CF4007AE366 /* ObjectResponse.m in Sources */,
 				1D5D4D981C4237B9007AE366 /* SBJsonStreamParserAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,8 +26,16 @@
 
 - (void)getRemoteData {
     NSString *stPushToken           = @"232342343";
-    NSDictionary *dict              = [WebServices userRegister:stPushToken];
-    print(NSLog(@"dict= %@", dict))
+    mjsonRegister                   = [WebServices userRegister:stPushToken];
+    ObjectResponse *objectResponse  = [Parser parseRegisterObject];
+    
+    NSString *stPublicKey           = objectResponse.publicKey;
+    NSString *stResponseStatus      = objectResponse.responseStatus;
+    
+    print(NSLog(@"mjsonRegister = %@", mjsonRegister))
+    print(NSLog(@"stPublicKey = %@", stPublicKey))
+    print(NSLog(@"stResponseStatus = %@", stResponseStatus))
+    
     
 }
 

@@ -8,6 +8,9 @@
 
 #import "Declarations.h"
 
+NSDictionary *mjsonRegister;
+NSDictionary *mjsonZones;
+
 @implementation Declarations
 
 @end

@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Parser : NSObject
+#import "Declarations.h"
 
+@interface Parser : NSObject
++ (ObjectResponse *)parseRegisterObject;
++ (ObjectResponse *)parseZoneObject;
 @end
