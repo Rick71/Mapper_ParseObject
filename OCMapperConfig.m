@@ -19,7 +19,7 @@
     [[ObjectMapper sharedInstance] setLoggingProvider:commonLoggingProvider];
     
     /******************* Alerts **********************/
-    /* [inCodeMappingProvider mapFromDictionaryKey:@"zones" toPropertyKey:@"zones"
-                                 withObjectType:[ZonesObject class] forClass:[ObjectResponse class]]; */
+    [inCodeMappingProvider mapFromDictionaryKey:@"zones" toPropertyKey:@"zones"
+                                 withObjectType:[ZonesObject class] forClass:[ObjectResponse class]];
 }
 @end

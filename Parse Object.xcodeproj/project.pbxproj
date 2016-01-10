@@ -29,6 +29,7 @@
 		1D5D4DA71C4237B9007AE366 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4D921C4237B9007AE366 /* ObjectMappingInfo.m */; };
 		1D5D4DAB1C423B03007AE366 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4DAA1C423B03007AE366 /* Parser.m */; };
 		1D5D4DAF1C425CF4007AE366 /* ObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4DAE1C425CF4007AE366 /* ObjectResponse.m */; };
+		1D5D4DB31C426645007AE366 /* ZonesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4DB21C426645007AE366 /* ZonesObject.m */; };
 		1DA99FCE1C0B460A00576553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99FCD1C0B460A00576553 /* main.m */; };
 		1DA99FD11C0B460A00576553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99FD01C0B460A00576553 /* AppDelegate.m */; };
 		1DA99FD41C0B460A00576553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99FD31C0B460A00576553 /* ViewController.m */; };
@@ -91,6 +92,8 @@
 		1D5D4DAA1C423B03007AE366 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
 		1D5D4DAD1C425CF4007AE366 /* ObjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectResponse.h; sourceTree = "<group>"; };
 		1D5D4DAE1C425CF4007AE366 /* ObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectResponse.m; sourceTree = "<group>"; };
+		1D5D4DB11C426645007AE366 /* ZonesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZonesObject.h; sourceTree = "<group>"; };
+		1D5D4DB21C426645007AE366 /* ZonesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonesObject.m; sourceTree = "<group>"; };
 		1DA99FC91C0B460A00576553 /* Parse Object.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Object.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA99FCD1C0B460A00576553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DA99FCF1C0B460A00576553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Parse Object/AppDelegate.h"; sourceTree = "<group>"; };
@@ -224,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				1D5D4DAC1C425C0D007AE366 /* General */,
+				1D5D4DB01C4265D4007AE366 /* Zones */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -235,6 +239,15 @@
 				1D5D4DAE1C425CF4007AE366 /* ObjectResponse.m */,
 			);
 			name = General;
+			sourceTree = "<group>";
+		};
+		1D5D4DB01C4265D4007AE366 /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D4DB11C426645007AE366 /* ZonesObject.h */,
+				1D5D4DB21C426645007AE366 /* ZonesObject.m */,
+			);
+			name = Zones;
 			sourceTree = "<group>";
 		};
 		1DA99FC01C0B460A00576553 = {
@@ -401,6 +414,7 @@
 				1D5D4D951C4237B9007AE366 /* SBJsonParser.m in Sources */,
 				1D5D4D941C4237B9007AE366 /* NSObject+SBJson.m in Sources */,
 				1D5D4D9E1C4237B9007AE366 /* SBJsonUTF8Stream.m in Sources */,
+				1D5D4DB31C426645007AE366 /* ZonesObject.m in Sources */,
 				1D5D4DA21C4237B9007AE366 /* ManagedObjectInstanceProvider.m in Sources */,
 				1DA99FEE1C0B489D00576553 /* Declarations.m in Sources */,
 				1D5D4D9B1C4237B9007AE366 /* SBJsonStreamWriterAccumulator.m in Sources */,
