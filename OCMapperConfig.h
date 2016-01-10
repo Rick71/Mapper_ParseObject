@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface OCMapperConfig : NSObject
-
++ (void)configure;
 @end

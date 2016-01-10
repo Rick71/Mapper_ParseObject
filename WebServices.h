@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface WebServices : NSObject
-
++ (NSDictionary *)userRegister:(NSString *)pushToken;
++ (NSDictionary *)getRiskZones:(NSString *)publicKey;
 @end
